@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew "(2015-07-22 BZR 5980)-product")
 
   (general
-    (links 184)
+    (links 190)
     (no_connects 0)
-    (area 144.949999 59.949999 225.050001 110.050001)
+    (area 143 56.345 230.483334 113.505)
     (thickness 1.6)
     (drawings 27)
     (tracks 456)
@@ -62,8 +62,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 5 5)
-    (pad_drill 3.1)
+    (pad_size 0.5 0.5)
+    (pad_drill 0.3)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
@@ -672,7 +672,7 @@
       (net 1 GND) (zone_connect 2))
   )
 
-  (module via:VIA_GND (layer F.Cu) (tedit 57348054) (tstamp 57348172)
+  (module via:VIA_GND (layer F.Cu) (tedit 573728EC) (tstamp 57348172)
     (at 177.8 107.315)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
