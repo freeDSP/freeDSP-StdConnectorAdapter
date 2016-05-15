@@ -1,4 +1,4 @@
-update=Sonntag, 01. Mai 2016 'u50' 22:50:04
+update=Sonntag, 15. Mai 2016 'u49' 21:49:18
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,13 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/Users/fabian/Documents/git/KiCAD Library/Symbol/texas_instruments
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
