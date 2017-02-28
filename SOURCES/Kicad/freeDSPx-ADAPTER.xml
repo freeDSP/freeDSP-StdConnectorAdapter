@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>J:/sMn/KiCadProjects/Projects/Studienarbeit/freeDSPx-STANDARD_CONNECTOR_ADAPTER/freeDSPx-STANDARD_CONNECTOR_ADAPTER.sch</source>
+    <date>06.12.2016 20:39:35</date>
+    <tool>Eeschema 4.0.2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>freeDSPx-STANDARD_CONNECTOR_ADAPTER.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="X1">
+      <value>Crystal_Oszillator</value>
+      <footprint>fdsp_crystal-oscillator:XO91_HandSoldering</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B400/XO91.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">XO91 24.57600</field>
+      </fields>
+      <libsource lib="fdsp_device" part="Crystal_Oszillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58332F7D</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_02X11</value>
+      <footprint>fdsp_pinheader:Pin_Header_Straight_2x11</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/C140/DS_MPE_094.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">MPE 094-2-022</field>
+      </fields>
+      <libsource lib="fdsp_pinhead" part="CONN_02X11"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583341DD</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM284x</value>
+      <footprint>fdsp_housing:SOT23-6_1.7x3.0mm_Pitch0.95mm</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/A200/LM2841-TI.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">LM 2841 XMK-ADJL</field>
+      </fields>
+      <libsource lib="fdsp_regulator" part="LM284x"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583444AC</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>47u</value>
+      <footprint>fdsp_inductor:Choke_SMD_7.3x7.3_HandSoldering</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B400/PIS2812.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">L-PIS2812 47µ</field>
+      </fields>
+      <libsource lib="fdsp_device" part="L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58344C68</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>fdsp_resistor:R_0805_HandSoldering</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">SMD-0805 1.00K</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58344D55</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>B140</value>
+      <footprint>fdsp_diode:SMA</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/A400/B120-B160.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">B 140 F</field>
+      </fields>
+      <libsource lib="fdsp_device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58344DFC</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>3k3</value>
+      <footprint>fdsp_resistor:R_0805_HandSoldering</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">SMD-0805 3.30K</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583451B6</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>22u</value>
+      <footprint>fdsp_capacitor:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Reichelt_Best_Nr">X7R-G1206 22/10</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834597B</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>330</value>
+      <footprint>fdsp_capacitor:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Reichelt_Best_Nr">BLM21PG 331</field>
+      </fields>
+      <libsource lib="fdsp_device" part="FILTER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58346BDE</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>P6SMB 27V</value>
+      <footprint>fdsp_diode:SMB</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/A400/P6SMB-SERIES.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">P6SMB 27A SMD</field>
+      </fields>
+      <libsource lib="fdsp_device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58346C57</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>fdsp_capacitor:C_0805_HandSoldering</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B300/X7R-G0805%23YAG.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">X7R-G0805 100N</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58347C2A</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_NO_Small</value>
+      <footprint>fdsp_pinheader:Pin_Header_Straight_1x02</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/C140/DS_MPE_087.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">MPE 087-1-002</field>
+      </fields>
+      <libsource lib="fdsp_device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834E328</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>STDCONN</value>
+      <footprint>fdsp_connector:IDC_Header_Straight_16pins</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/C151/BH1S-XX-L.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">WSL 16G</field>
+      </fields>
+      <libsource lib="fdsp_connector" part="STDCONN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5835A196</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>STDCONN</value>
+      <footprint>fdsp_connector:IDC_Header_Straight_16pins</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/C151/BH1S-XX-L.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">WSL 16G</field>
+      </fields>
+      <libsource lib="fdsp_connector" part="STDCONN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5835F01C</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>STDCONN</value>
+      <footprint>fdsp_connector:IDC_Header_Straight_16pins</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/C151/BH1S-XX-L.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">WSL 16G</field>
+      </fields>
+      <libsource lib="fdsp_connector" part="STDCONN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5835F0A4</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>STDCONN</value>
+      <footprint>fdsp_connector:IDC_Header_Straight_16pins</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/C151/BH1S-XX-L.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">WSL 16G</field>
+      </fields>
+      <libsource lib="fdsp_connector" part="STDCONN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5835F133</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X02</value>
+      <footprint>fdsp_connector:RIACON101-2</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/C100/AKL101%23RIA.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">AKL 101-02</field>
+      </fields>
+      <libsource lib="fdsp_pinhead" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58361124</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>fdsp_capacitor:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Reichelt_Best_Nr">X7R-G0805 100N</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5835D3C6</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>fdsp_capacitor:C_0805_HandSoldering</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B300/X7R-G0805%23YAG.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">X7R-G0805 100N</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5835D5E9</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>fdsp_capacitor:C_0805_HandSoldering</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B300/X7R-G0805%23YAG.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">X7R-G0805 100N</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5835D6C5</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>fdsp_capacitor:C_0805_HandSoldering</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B300/X7R-G0805%23YAG.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">X7R-G0805 100N</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5835D87A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>4u7</value>
+      <footprint>fdsp_capacitor:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Reichelt_Best_Nr">X7R-G1206 4.7/50</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5835F212</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>B140</value>
+      <footprint>fdsp_diode:SMA</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/A400/B120-B160.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">B 140 F</field>
+      </fields>
+      <libsource lib="fdsp_device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5835FE7F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>74AC14</value>
+      <footprint>fdsp_housing:SO14_3.9x8.7mm_Pitch1.27mm</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/A200/74AC14D-SMD_ON.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">74AC 14D-SMD</field>
+      </fields>
+      <libsource lib="fdsp_digital" part="74HC14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583607D6</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>33</value>
+      <footprint>fdsp_resistor:R_0805_HandSoldering</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">SMD-0805 33.0</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583622C7</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>33</value>
+      <footprint>fdsp_resistor:R_0805_HandSoldering</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">SMD-0805 33.0</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58362611</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>33</value>
+      <footprint>fdsp_resistor:R_0805_HandSoldering</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">SMD-0805 33.0</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5836270B</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>33</value>
+      <footprint>fdsp_resistor:R_0805_HandSoldering</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">SMD-0805 33.0</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58362803</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>33</value>
+      <footprint>fdsp_resistor:R_0805_HandSoldering</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">SMD-0805 33.0</field>
+      </fields>
+      <libsource lib="fdsp_device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58362928</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>330</value>
+      <footprint>fdsp_capacitor:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="Reichelt_Best_Nr">BLM21PG 331</field>
+      </fields>
+      <libsource lib="fdsp_device" part="FILTER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58363ECE</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10u</value>
+      <footprint>fdsp_capacitor:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="Reichelt_Best_Nr">X7R-G1206 10/16</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>583643C2</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>JUMPER3</value>
+      <footprint>fdsp_pinheader:Pin_Header_Straight_1x03</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/C140/DS_MPE_087.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">MPE 087-1-003</field>
+      </fields>
+      <libsource lib="fdsp_device" part="JUMPER3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58404AF8</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>JUMPER3</value>
+      <footprint>fdsp_pinheader:Pin_Header_Straight_1x03</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/C140/DS_MPE_087.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">MPE 087-1-003</field>
+      </fields>
+      <libsource lib="fdsp_device" part="JUMPER3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58404B8A</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>74AC74</value>
+      <footprint>fdsp_housing:SO14_3.9x8.7mm_Pitch1.27mm</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/A200/74AC74_74AC74D-SMD_FAI.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">74AC 74D-SMD</field>
+      </fields>
+      <libsource lib="fdsp_digital" part="74HC74"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5840655F</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>fdsp_capacitor:C_0805_HandSoldering</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B300/X7R-G0805%23YAG.pdf</datasheet>
+      <fields>
+        <field name="Reichelt_Best_Nr">X7R-G0805 100N</field>
+      </fields>
+      <libsource lib="fdsp_device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5840E0BD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="fdsp_digital" part="74HCT04">
+      <aliases>
+        <alias>74HC14</alias>
+        <alias>74HC04</alias>
+        <alias>74LS14</alias>
+      </aliases>
+      <description>Hex Inverseur</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HCT04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_digital" part="74LS74">
+      <aliases>
+        <alias>74HC74</alias>
+      </aliases>
+      <description>Dual D FlipFlop, Set &amp; Reset</description>
+      <docs>74xx/74hc_hct74.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS74</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Cd" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="Cp" type="input"/>
+        <pin num="4" name="Sd" type="input"/>
+        <pin num="5" name="Q" type="output"/>
+        <pin num="6" name="~Q" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~Q" type="output"/>
+        <pin num="9" name="Q" type="output"/>
+        <pin num="10" name="Sd" type="input"/>
+        <pin num="11" name="Cp" type="input"/>
+        <pin num="12" name="D" type="input"/>
+        <pin num="13" name="Cd" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_pinhead" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_pinhead" part="CONN_02X11">
+      <footprints>
+        <fp>Pin_Header_Straight_2X11</fp>
+        <fp>Pin_Header_Angled_2X11</fp>
+        <fp>Socket_Strip_Straight_2X11</fp>
+        <fp>Socket_Strip_Angled_2X11</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X11</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="Crystal_Oszillator">
+      <description>Four pin crytal oszillator</description>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Crystal_Oszillator</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Control" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="Output" type="input"/>
+        <pin num="4" name="Vcc" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="FILTER">
+      <description>Filtre EMI</description>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="JUMPER3">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="Jumper_NO_Small">
+      <description>Jumper normally open</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="L">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_regulator" part="LM284x">
+      <description>Stepdown DC/DC switching regulator</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM284x</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CB" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="SHDN" type="input"/>
+        <pin num="5" name="Vin" type="input"/>
+        <pin num="6" name="SW" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_connector" part="STDCONN">
+      <description>FreeDSP Standard Extension Header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X08</fp>
+        <fp>Pin_Header_Angled_2X08</fp>
+        <fp>Socket_Strip_Straight_2X08</fp>
+        <fp>Socket_Strip_Angled_2X08</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">STDCONN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="MDI" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="MDO" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="BCLK" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="LRCLK" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="SDA" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="SCL" type="passive"/>
+        <pin num="14" name="GND" type="passive"/>
+        <pin num="15" name="MCLK" type="passive"/>
+        <pin num="16" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fdsp_device" part="ZENER">
+      <description>Diode zener</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="fdsp_connector">
+      <uri>J:\sMn\KiCadProjects\freeDSP-KiCadLibrary\Symbol\fdsp_connector.lib</uri>
+    </library>
+    <library logical="fdsp_digital">
+      <uri>J:\sMn\KiCadProjects\freeDSP-KiCadLibrary\Symbol\fdsp_digital.lib</uri>
+    </library>
+    <library logical="fdsp_device">
+      <uri>J:\sMn\KiCadProjects\freeDSP-KiCadLibrary\Symbol\fdsp_device.lib</uri>
+    </library>
+    <library logical="fdsp_pinhead">
+      <uri>J:\sMn\KiCadProjects\freeDSP-KiCadLibrary\Symbol\fdsp_pinhead.lib</uri>
+    </library>
+    <library logical="fdsp_regulator">
+      <uri>J:\sMn\KiCadProjects\freeDSP-KiCadLibrary\Symbol\fdsp_regulator.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D3-Pad2)">
+      <node ref="P1" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="P2" pin="20"/>
+      <node ref="C2" pin="2"/>
+      <node ref="P2" pin="21"/>
+      <node ref="P2" pin="22"/>
+      <node ref="P4" pin="4"/>
+      <node ref="P4" pin="6"/>
+      <node ref="P4" pin="8"/>
+      <node ref="P4" pin="10"/>
+      <node ref="P4" pin="12"/>
+      <node ref="P4" pin="14"/>
+      <node ref="P4" pin="16"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="X1" pin="2"/>
+      <node ref="P6" pin="6"/>
+      <node ref="D2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="P6" pin="12"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="P5" pin="12"/>
+      <node ref="P5" pin="14"/>
+      <node ref="P5" pin="10"/>
+      <node ref="P5" pin="8"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="13"/>
+      <node ref="P5" pin="16"/>
+      <node ref="P6" pin="2"/>
+      <node ref="P6" pin="4"/>
+      <node ref="P6" pin="8"/>
+      <node ref="P4" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="P6" pin="10"/>
+      <node ref="P3" pin="4"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P5" pin="6"/>
+      <node ref="P5" pin="4"/>
+      <node ref="P3" pin="10"/>
+      <node ref="P3" pin="12"/>
+      <node ref="P5" pin="2"/>
+      <node ref="P6" pin="16"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P3" pin="16"/>
+      <node ref="P3" pin="14"/>
+      <node ref="P3" pin="6"/>
+      <node ref="P6" pin="14"/>
+      <node ref="D1" pin="2"/>
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="3" name="MCLK3">
+      <node ref="R6" pin="1"/>
+      <node ref="P6" pin="15"/>
+    </net>
+    <net code="4" name="LRCLKout">
+      <node ref="P3" pin="9"/>
+      <node ref="P4" pin="9"/>
+      <node ref="P5" pin="9"/>
+      <node ref="P2" pin="10"/>
+      <node ref="P6" pin="9"/>
+    </net>
+    <net code="5" name="SDATAout3">
+      <node ref="P6" pin="5"/>
+      <node ref="P2" pin="14"/>
+    </net>
+    <net code="6" name="SDATAin3">
+      <node ref="P6" pin="3"/>
+      <node ref="P2" pin="16"/>
+    </net>
+    <net code="7" name="MCLK2">
+      <node ref="P5" pin="15"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="8" name="SCL">
+      <node ref="P6" pin="13"/>
+      <node ref="P5" pin="13"/>
+      <node ref="P4" pin="13"/>
+      <node ref="P3" pin="13"/>
+      <node ref="P2" pin="15"/>
+    </net>
+    <net code="9" name="SDA">
+      <node ref="P5" pin="11"/>
+      <node ref="P4" pin="11"/>
+      <node ref="P3" pin="11"/>
+      <node ref="P2" pin="12"/>
+      <node ref="P6" pin="11"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="11" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="12" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="13" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="14" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="15" name="BCLKout">
+      <node ref="P6" pin="7"/>
+      <node ref="P3" pin="7"/>
+      <node ref="P4" pin="7"/>
+      <node ref="P5" pin="7"/>
+      <node ref="P2" pin="11"/>
+    </net>
+    <net code="16" name="Net-(C4-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="4"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="17" name="+3V3">
+      <node ref="C7" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="FB2" pin="1"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="18" name="VIN">
+      <node ref="P5" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="P6" pin="1"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="19" name="SDATAout2">
+      <node ref="P2" pin="17"/>
+      <node ref="P5" pin="5"/>
+    </net>
+    <net code="20" name="SDATAin2">
+      <node ref="P2" pin="18"/>
+      <node ref="P5" pin="3"/>
+    </net>
+    <net code="21" name="MCLK0">
+      <node ref="P3" pin="15"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="22" name="SDATAout0">
+      <node ref="P2" pin="9"/>
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="23" name="SDATAin0">
+      <node ref="P2" pin="7"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="24" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="8"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="25" name="12.288MHz">
+      <node ref="JP3" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="26" name="VCC">
+      <node ref="U1" pin="14"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U3" pin="14"/>
+      <node ref="X1" pin="4"/>
+    </net>
+    <net code="27" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="28" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="29" name="25.576MHz">
+      <node ref="JP2" pin="3"/>
+      <node ref="JP3" pin="3"/>
+      <node ref="U3" pin="11"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="30" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="31" name="Net-(JP3-Pad2)">
+      <node ref="JP3" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="32" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="33" name="Net-(C5-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="34" name="Net-(C5-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="35" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="36" name="Net-(X1-Pad1)">
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="37" name="MCLK4">
+      <node ref="R7" pin="1"/>
+      <node ref="P2" pin="19"/>
+    </net>
+    <net code="38" name="Net-(P2-Pad13)">
+      <node ref="P2" pin="13"/>
+    </net>
+    <net code="39" name="BCLKin">
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="40" name="LRCLKin">
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="41" name="Net-(P2-Pad3)">
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="42" name="Net-(JP1-Pad1)">
+      <node ref="P2" pin="2"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="43" name="MCLK1">
+      <node ref="R4" pin="1"/>
+      <node ref="P4" pin="15"/>
+    </net>
+    <net code="44" name="SDATAout1">
+      <node ref="P4" pin="5"/>
+      <node ref="P2" pin="8"/>
+    </net>
+    <net code="45" name="SDATAin1">
+      <node ref="P2" pin="6"/>
+      <node ref="P4" pin="3"/>
+    </net>
+  </nets>
+</export>

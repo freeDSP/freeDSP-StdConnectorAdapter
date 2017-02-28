@@ -1,0 +1,1449 @@
+EESchema Schematic File Version 2
+LIBS:fdsp_amplifier
+LIBS:fdsp_connector
+LIBS:fdsp_converter
+LIBS:fdsp_device
+LIBS:fdsp_digital
+LIBS:fdsp_dsp
+LIBS:fdsp_mechanical
+LIBS:fdsp_pinhead
+LIBS:fdsp_power
+LIBS:fdsp_regulator
+LIBS:fdsp_transistor
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:freeDSPx-STANDARD_CONNECTOR_ADAPTER-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "freeDSPx-Adapter"
+Date "2017-02-19"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR01
+U 1 1 58332ED9
+P 8750 1850
+F 0 "#PWR01" H 8750 1600 50  0001 C CNN
+F 1 "GND" H 8750 1700 50  0000 C CNN
+F 2 "" H 8750 1850 50  0000 C CNN
+F 3 "" H 8750 1850 50  0000 C CNN
+	1    8750 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 1750 8750 1750
+Wire Wire Line
+	8750 1050 8750 1850
+Wire Wire Line
+	8550 1650 8750 1650
+Connection ~ 8750 1750
+Wire Wire Line
+	8550 1550 8750 1550
+Connection ~ 8750 1650
+Wire Wire Line
+	8550 1450 8750 1450
+Connection ~ 8750 1550
+Wire Wire Line
+	8550 1350 8750 1350
+Connection ~ 8750 1450
+Wire Wire Line
+	8550 1250 8750 1250
+Connection ~ 8750 1350
+Wire Wire Line
+	8550 1150 8750 1150
+Connection ~ 8750 1250
+Wire Wire Line
+	8550 1050 8750 1050
+Connection ~ 8750 1150
+$Comp
+L Crystal_Oszillator X1
+U 1 1 58332F7D
+P 1950 1350
+F 0 "X1" H 1950 1800 60  0000 C CNN
+F 1 "Crystal_Oszillator" H 1950 900 60  0000 C CNN
+F 2 "fdsp_crystal-oscillator:XO91_HandSoldering" H 1850 1250 60  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/XO91.pdf" H 1850 1250 60  0001 C CNN
+F 4 "XO91 24.57600" H 1950 1350 60  0001 C CNN "Reichelt_Best_Nr"
+	1    1950 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 583337FA
+P 1300 1700
+F 0 "#PWR02" H 1300 1450 50  0001 C CNN
+F 1 "GND" H 1300 1550 50  0000 C CNN
+F 2 "" H 1300 1700 50  0000 C CNN
+F 3 "" H 1300 1700 50  0000 C CNN
+	1    1300 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1600 1300 1600
+Wire Wire Line
+	1300 1600 1300 1700
+$Comp
+L GND #PWR03
+U 1 1 5833387E
+P 4900 4050
+F 0 "#PWR03" H 4900 3800 50  0001 C CNN
+F 1 "GND" H 4900 3900 50  0000 C CNN
+F 2 "" H 4900 4050 50  0000 C CNN
+F 3 "" H 4900 4050 50  0000 C CNN
+	1    4900 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3950 4900 3950
+Wire Wire Line
+	4900 3950 4900 4050
+Wire Wire Line
+	4400 1600 5000 1600
+Wire Wire Line
+	4850 2300 5000 2300
+Wire Wire Line
+	4850 3000 5000 3000
+Wire Wire Line
+	4400 3350 5000 3350
+Wire Wire Line
+	2600 1100 2500 1100
+$Comp
+L CONN_02X11 P2
+U 1 1 583341DD
+P 9900 4750
+F 0 "P2" H 9900 5350 50  0000 C CNN
+F 1 "CONN_02X11" V 9900 4750 50  0000 C CNN
+F 2 "fdsp_pinheader:Pin_Header_Straight_2x11" H 9900 3550 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/C140/DS_MPE_094.pdf" H 9900 3550 50  0001 C CNN
+F 4 "MPE 094-2-022" H 9900 4750 60  0001 C CNN "Reichelt_Best_Nr"
+	1    9900 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5833448E
+P 950 1550
+F 0 "#PWR04" H 950 1300 50  0001 C CNN
+F 1 "GND" H 950 1400 50  0000 C CNN
+F 2 "" H 950 1550 50  0000 C CNN
+F 3 "" H 950 1550 50  0000 C CNN
+	1    950  1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 583345C5
+P 10900 4450
+F 0 "#PWR05" H 10900 4200 50  0001 C CNN
+F 1 "GND" H 10900 4300 50  0000 C CNN
+F 2 "" H 10900 4450 50  0000 C CNN
+F 3 "" H 10900 4450 50  0000 C CNN
+	1    10900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM284x U2
+U 1 1 583444AC
+P 4200 5650
+F 0 "U2" H 4450 5950 60  0000 C CNN
+F 1 "LM284x" H 4100 5950 60  0000 C CNN
+F 2 "fdsp_housing:SOT23-6_1.7x3.0mm_Pitch0.95mm" H 4250 5650 60  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A200/LM2841-TI.pdf" H 4250 5650 60  0001 C CNN
+F 4 "LM 2841 XMK-ADJL" H 4200 5650 60  0001 C CNN "Reichelt_Best_Nr"
+	1    4200 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 583447C4
+P 3600 6200
+F 0 "#PWR06" H 3600 5950 50  0001 C CNN
+F 1 "GND" H 3600 6050 50  0000 C CNN
+F 2 "" H 3600 6200 50  0000 C CNN
+F 3 "" H 3600 6200 50  0000 C CNN
+	1    3600 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5800 3600 5800
+Wire Wire Line
+	3600 5800 3600 6200
+Wire Wire Line
+	3700 5650 3600 5650
+Wire Wire Line
+	3600 5650 3600 5500
+Wire Wire Line
+	3150 5500 3700 5500
+Wire Wire Line
+	3350 5500 3350 5600
+Connection ~ 3600 5500
+$Comp
+L GND #PWR07
+U 1 1 5834499F
+P 3350 6200
+F 0 "#PWR07" H 3350 5950 50  0001 C CNN
+F 1 "GND" H 3350 6050 50  0000 C CNN
+F 2 "" H 3350 6200 50  0000 C CNN
+F 3 "" H 3350 6200 50  0000 C CNN
+	1    3350 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5300 5750 5300
+Wire Wire Line
+	4900 5300 4800 5300
+Wire Wire Line
+	4800 5300 4800 5500
+Wire Wire Line
+	4800 5500 4700 5500
+$Comp
+L L L1
+U 1 1 58344C68
+P 6050 5300
+F 0 "L1" V 6000 5300 50  0000 C CNN
+F 1 "47u" V 6150 5300 50  0000 C CNN
+F 2 "fdsp_inductor:Choke_SMD_7.3x7.3_HandSoldering" H 6050 5300 60  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/PIS2812.pdf" H 6050 5300 60  0001 C CNN
+F 4 "L-PIS2812 47µ" V 6050 5300 60  0001 C CNN "Reichelt_Best_Nr"
+	1    6050 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 58344D55
+P 4800 6050
+F 0 "R1" V 4880 6050 50  0000 C CNN
+F 1 "1k" V 4800 6050 50  0000 C CNN
+F 2 "fdsp_resistor:R_0805_HandSoldering" V 4730 6050 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf" H 4800 6050 50  0001 C CNN
+F 4 "SMD-0805 1.00K" V 4800 6050 60  0001 C CNN "Reichelt_Best_Nr"
+	1    4800 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D2
+U 1 1 58344DFC
+P 5550 6050
+F 0 "D2" H 5550 6150 50  0000 C CNN
+F 1 "B140" H 5550 5950 50  0000 C CNN
+F 2 "fdsp_diode:SMA" H 5550 6050 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/B120-B160.pdf" H 5550 6050 50  0001 C CNN
+F 4 "B 140 F" H 5550 6050 60  0001 C CNN "Reichelt_Best_Nr"
+	1    5550 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 5650 5300 5650
+Wire Wire Line
+	5300 5650 5300 5300
+Connection ~ 5300 5300
+$Comp
+L R R2
+U 1 1 583451B6
+P 5050 5800
+F 0 "R2" V 5130 5800 50  0000 C CNN
+F 1 "3k3" V 5050 5800 50  0000 C CNN
+F 2 "fdsp_resistor:R_0805_HandSoldering" V 4980 5800 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf" H 5050 5800 50  0001 C CNN
+F 4 "SMD-0805 3.30K" V 5050 5800 60  0001 C CNN "Reichelt_Best_Nr"
+	1    5050 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 5800 4700 5800
+Wire Wire Line
+	4800 5900 4800 5800
+Connection ~ 4800 5800
+$Comp
+L GND #PWR08
+U 1 1 58345405
+P 4800 6200
+F 0 "#PWR08" H 4800 5950 50  0001 C CNN
+F 1 "GND" H 4800 6050 50  0000 C CNN
+F 2 "" H 4800 6200 50  0000 C CNN
+F 3 "" H 4800 6200 50  0000 C CNN
+	1    4800 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 6200 3350 5900
+$Comp
+L GND #PWR09
+U 1 1 58345671
+P 5550 6200
+F 0 "#PWR09" H 5550 5950 50  0001 C CNN
+F 1 "GND" H 5550 6050 50  0000 C CNN
+F 2 "" H 5550 6200 50  0000 C CNN
+F 3 "" H 5550 6200 50  0000 C CNN
+	1    5550 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5300 5550 5900
+Connection ~ 5550 5300
+Wire Wire Line
+	5200 5800 6450 5800
+Wire Wire Line
+	6450 5800 6450 5300
+Wire Wire Line
+	6350 5300 6850 5300
+$Comp
+L C C6
+U 1 1 5834597B
+P 6700 5900
+F 0 "C6" H 6725 6000 50  0000 L CNN
+F 1 "22u" H 6725 5800 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206_HandSoldering" H 6738 5750 50  0001 C CNN
+F 3 "" H 6700 5900 50  0000 C CNN
+F 4 "X7R-G1206 22/10" H 6700 5900 60  0001 C CNN "Reichelt_Best_Nr"
+	1    6700 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 58345D2F
+P 6700 6200
+F 0 "#PWR010" H 6700 5950 50  0001 C CNN
+F 1 "GND" H 6700 6050 50  0000 C CNN
+F 2 "" H 6700 6200 50  0000 C CNN
+F 3 "" H 6700 6200 50  0000 C CNN
+	1    6700 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 5150 6700 5750
+Connection ~ 6450 5300
+Wire Wire Line
+	6700 6050 6700 6200
+Connection ~ 6700 5300
+$Comp
+L FILTER FB1
+U 1 1 58346BDE
+P 2800 5500
+F 0 "FB1" H 2800 5650 50  0000 C CNN
+F 1 "330" H 2800 5400 50  0000 C CNN
+F 2 "fdsp_capacitor:C_0805_HandSoldering" H 2800 5500 50  0001 C CNN
+F 3 "" H 2800 5500 50  0000 C CNN
+F 4 "BLM21PG 331" H 2800 5500 60  0001 C CNN "Reichelt_Best_Nr"
+	1    2800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D1
+U 1 1 58346C57
+P 1950 5850
+F 0 "D1" H 1950 5950 50  0000 C CNN
+F 1 "P6SMB 27V" H 1950 5750 50  0000 C CNN
+F 2 "fdsp_diode:SMB" H 1950 5850 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/P6SMB-SERIES.pdf" H 1950 5850 50  0001 C CNN
+F 4 "P6SMB 27A SMD" H 1950 5850 60  0001 C CNN "Reichelt_Best_Nr"
+	1    1950 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 58346D6B
+P 1950 6200
+F 0 "#PWR011" H 1950 5950 50  0001 C CNN
+F 1 "GND" H 1950 6050 50  0000 C CNN
+F 2 "" H 1950 6200 50  0000 C CNN
+F 3 "" H 1950 6200 50  0000 C CNN
+	1    1950 6200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 5500
+Wire Wire Line
+	1950 5650 1950 5500
+Wire Wire Line
+	1950 6050 1950 6200
+$Comp
+L C C2
+U 1 1 58347C2A
+P 2300 5700
+F 0 "C2" H 2325 5800 50  0000 L CNN
+F 1 "100n" H 2325 5600 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805_HandSoldering" H 2338 5550 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B300/X7R-G0805%23YAG.pdf" H 2300 5700 50  0001 C CNN
+F 4 "X7R-G0805 100N" H 2300 5700 60  0001 C CNN "Reichelt_Best_Nr"
+	1    2300 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 58347CB3
+P 2300 6200
+F 0 "#PWR012" H 2300 5950 50  0001 C CNN
+F 1 "GND" H 2300 6050 50  0000 C CNN
+F 2 "" H 2300 6200 50  0000 C CNN
+F 3 "" H 2300 6200 50  0000 C CNN
+	1    2300 6200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 5500
+Wire Wire Line
+	2300 5850 2300 6200
+Text GLabel 6400 2300 2    51   Input ~ 0
+MCLK1
+Text GLabel 6400 2650 2    51   Input ~ 0
+MCLK2
+Text GLabel 6400 3000 2    51   Input ~ 0
+MCLK3
+Text GLabel 6400 3350 2    51   Input ~ 0
+MCLK4
+Text GLabel 6400 1600 2    51   Input ~ 0
+MCLK0
+Text GLabel 7950 1750 0    51   Input ~ 0
+MCLK0
+Text GLabel 7950 1450 0    51   Input ~ 0
+LRCLKout
+$Comp
+L VIN #PWR013
+U 1 1 5834A109
+P 2300 5350
+F 0 "#PWR013" H 2300 5200 50  0001 C CNN
+F 1 "VIN" H 2300 5490 50  0000 C CNN
+F 2 "" H 2300 5350 60  0000 C CNN
+F 3 "" H 2300 5350 60  0000 C CNN
+	1    2300 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VIN #PWR014
+U 1 1 5834A274
+P 7850 950
+F 0 "#PWR014" H 7850 800 50  0001 C CNN
+F 1 "VIN" H 7850 1090 50  0000 C CNN
+F 2 "" H 7850 950 60  0000 C CNN
+F 3 "" H 7850 950 60  0000 C CNN
+	1    7850 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1050 7850 1050
+Wire Wire Line
+	7850 1050 7850 950 
+$Comp
+L GND #PWR015
+U 1 1 5834D8AD
+P 9550 5350
+F 0 "#PWR015" H 9550 5100 50  0001 C CNN
+F 1 "GND" H 9550 5200 50  0000 C CNN
+F 2 "" H 9550 5350 50  0000 C CNN
+F 3 "" H 9550 5350 50  0000 C CNN
+	1    9550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 5834DAD2
+P 10250 5350
+F 0 "#PWR016" H 10250 5100 50  0001 C CNN
+F 1 "GND" H 10250 5200 50  0000 C CNN
+F 2 "" H 10250 5350 50  0000 C CNN
+F 3 "" H 10250 5350 50  0000 C CNN
+	1    10250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 5150 10250 5150
+Wire Wire Line
+	10250 5150 10250 5350
+Wire Wire Line
+	10150 5250 10250 5250
+Connection ~ 10250 5250
+Wire Wire Line
+	9650 5250 9550 5250
+Wire Wire Line
+	9550 5250 9550 5350
+Text GLabel 9650 5150 0    51   Input ~ 0
+MCLK4
+$Comp
+L Jumper_NO_Small JP1
+U 1 1 5834E328
+P 10450 4250
+F 0 "JP1" H 10450 4330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 10460 4190 50  0001 C CNN
+F 2 "fdsp_pinheader:Pin_Header_Straight_1x02" H 10450 4250 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/C140/DS_MPE_087.pdf" H 10450 4250 50  0001 C CNN
+F 4 "MPE 087-1-002" H 10450 4250 60  0001 C CNN "Reichelt_Best_Nr"
+	1    10450 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 4250 10350 4250
+Wire Wire Line
+	10250 4250 10250 4050
+Wire Wire Line
+	10250 4050 9550 4050
+Wire Wire Line
+	9550 4050 9550 4250
+Wire Wire Line
+	9550 4250 9650 4250
+Connection ~ 10250 4250
+Wire Wire Line
+	10550 4250 10650 4250
+Wire Wire Line
+	10650 4250 10650 4150
+Text GLabel 9650 4450 0    51   Input ~ 0
+BCLKin
+Text GLabel 9650 4550 0    51   Input ~ 0
+SDATAin0
+Text GLabel 9650 4650 0    51   Output ~ 0
+SDATAout0
+Text GLabel 9650 4750 0    51   Output ~ 0
+BCLKout
+Text GLabel 7950 1350 0    51   Input ~ 0
+BCLKout
+Text GLabel 9650 5050 0    51   Output ~ 0
+SDATAout2
+Text GLabel 10150 4350 2    51   Input ~ 0
+LRCLKin
+Text GLabel 10150 4450 2    51   Input ~ 0
+SDATAin1
+Text GLabel 10150 4550 2    51   Output ~ 0
+SDATAout1
+Text GLabel 10150 4650 2    51   Output ~ 0
+LRCLKout
+Text GLabel 10150 5050 2    51   Input ~ 0
+SDATAin2
+Text GLabel 10150 4950 2    51   Input ~ 0
+SDATAin3
+Text GLabel 10150 4850 2    51   Output ~ 0
+SDATAout3
+Text GLabel 7950 1150 0    51   Output ~ 0
+SDATAin0
+Text GLabel 7950 1250 0    51   Input ~ 0
+SDATAout0
+Text GLabel 10150 4750 2    51   BiDi ~ 0
+SDA
+Text GLabel 9650 4950 0    51   BiDi ~ 0
+SCL
+Text GLabel 7950 1650 0    51   BiDi ~ 0
+SCL
+Text GLabel 7950 1550 0    51   BiDi ~ 0
+SDA
+$Comp
+L GND #PWR017
+U 1 1 583590F2
+P 5000 1250
+F 0 "#PWR017" H 5000 1000 50  0001 C CNN
+F 1 "GND" H 5000 1100 50  0000 C CNN
+F 2 "" H 5000 1250 50  0000 C CNN
+F 3 "" H 5000 1250 50  0000 C CNN
+	1    5000 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L STDCONN P4
+U 1 1 5835A196
+P 8250 3000
+F 0 "P4" H 8250 3450 50  0000 C CNN
+F 1 "STDCONN" H 8250 2550 50  0000 C CNN
+F 2 "fdsp_connector:IDC_Header_Straight_16pins" H 8250 1800 60  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/C151/BH1S-XX-L.pdf" H 8250 1800 60  0001 C CNN
+F 4 "WSL 16G" H 8250 3000 60  0001 C CNN "Reichelt_Best_Nr"
+	1    8250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 5835A19C
+P 8750 3450
+F 0 "#PWR018" H 8750 3200 50  0001 C CNN
+F 1 "GND" H 8750 3300 50  0000 C CNN
+F 2 "" H 8750 3450 50  0000 C CNN
+F 3 "" H 8750 3450 50  0000 C CNN
+	1    8750 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 3350 8750 3350
+Wire Wire Line
+	8750 2650 8750 3450
+Wire Wire Line
+	8550 3250 8750 3250
+Connection ~ 8750 3350
+Wire Wire Line
+	8550 3150 8750 3150
+Connection ~ 8750 3250
+Wire Wire Line
+	8550 3050 8750 3050
+Connection ~ 8750 3150
+Wire Wire Line
+	8550 2950 8750 2950
+Connection ~ 8750 3050
+Wire Wire Line
+	8550 2850 8750 2850
+Connection ~ 8750 2950
+Wire Wire Line
+	8550 2750 8750 2750
+Connection ~ 8750 2850
+Wire Wire Line
+	8550 2650 8750 2650
+Connection ~ 8750 2750
+Text GLabel 7950 3350 0    51   Input ~ 0
+MCLK1
+Text GLabel 7950 3050 0    51   Input ~ 0
+LRCLKout
+$Comp
+L VIN #PWR019
+U 1 1 5835A1B4
+P 7850 2550
+F 0 "#PWR019" H 7850 2400 50  0001 C CNN
+F 1 "VIN" H 7850 2690 50  0000 C CNN
+F 2 "" H 7850 2550 60  0000 C CNN
+F 3 "" H 7850 2550 60  0000 C CNN
+	1    7850 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2650 7850 2650
+Wire Wire Line
+	7850 2650 7850 2550
+Text GLabel 7950 2950 0    51   Input ~ 0
+BCLKout
+Text GLabel 7950 2750 0    51   Output ~ 0
+SDATAin1
+Text GLabel 7950 2850 0    51   Input ~ 0
+SDATAout1
+Text GLabel 7950 3250 0    51   BiDi ~ 0
+SCL
+Text GLabel 7950 3150 0    51   BiDi ~ 0
+SDA
+$Comp
+L GND #PWR020
+U 1 1 5835A29D
+P 10650 1850
+F 0 "#PWR020" H 10650 1600 50  0001 C CNN
+F 1 "GND" H 10650 1700 50  0000 C CNN
+F 2 "" H 10650 1850 50  0000 C CNN
+F 3 "" H 10650 1850 50  0000 C CNN
+	1    10650 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 1750 10650 1750
+Wire Wire Line
+	10650 1050 10650 1850
+Wire Wire Line
+	10450 1650 10650 1650
+Connection ~ 10650 1750
+Wire Wire Line
+	10450 1550 10650 1550
+Connection ~ 10650 1650
+Wire Wire Line
+	10450 1450 10650 1450
+Connection ~ 10650 1550
+Wire Wire Line
+	10450 1350 10650 1350
+Connection ~ 10650 1450
+Wire Wire Line
+	10450 1250 10650 1250
+Connection ~ 10650 1350
+Wire Wire Line
+	10450 1150 10650 1150
+Connection ~ 10650 1250
+Wire Wire Line
+	10450 1050 10650 1050
+Connection ~ 10650 1150
+Text GLabel 9850 1750 0    51   Input ~ 0
+MCLK2
+Text GLabel 9850 1450 0    51   Input ~ 0
+LRCLKout
+$Comp
+L VIN #PWR021
+U 1 1 5835A2B5
+P 9750 950
+F 0 "#PWR021" H 9750 800 50  0001 C CNN
+F 1 "VIN" H 9750 1090 50  0000 C CNN
+F 2 "" H 9750 950 60  0000 C CNN
+F 3 "" H 9750 950 60  0000 C CNN
+	1    9750 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 1050 9750 1050
+Wire Wire Line
+	9750 1050 9750 950 
+Text GLabel 9850 1350 0    51   Input ~ 0
+BCLKout
+Text GLabel 9850 1150 0    51   Output ~ 0
+SDATAin2
+Text GLabel 9850 1250 0    51   Input ~ 0
+SDATAout2
+Text GLabel 9850 1650 0    51   BiDi ~ 0
+SCL
+Text GLabel 9850 1550 0    51   BiDi ~ 0
+SDA
+$Comp
+L GND #PWR022
+U 1 1 5835A2DA
+P 10650 3450
+F 0 "#PWR022" H 10650 3200 50  0001 C CNN
+F 1 "GND" H 10650 3300 50  0000 C CNN
+F 2 "" H 10650 3450 50  0000 C CNN
+F 3 "" H 10650 3450 50  0000 C CNN
+	1    10650 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 3350 10650 3350
+Wire Wire Line
+	10650 2650 10650 3450
+Wire Wire Line
+	10450 3250 10650 3250
+Connection ~ 10650 3350
+Wire Wire Line
+	10450 3150 10650 3150
+Connection ~ 10650 3250
+Wire Wire Line
+	10450 3050 10650 3050
+Connection ~ 10650 3150
+Wire Wire Line
+	10450 2950 10650 2950
+Connection ~ 10650 3050
+Wire Wire Line
+	10450 2850 10650 2850
+Connection ~ 10650 2950
+Wire Wire Line
+	10450 2750 10650 2750
+Connection ~ 10650 2850
+Wire Wire Line
+	10450 2650 10650 2650
+Connection ~ 10650 2750
+Text GLabel 9850 3350 0    51   Input ~ 0
+MCLK3
+Text GLabel 9850 3050 0    51   Input ~ 0
+LRCLKout
+$Comp
+L VIN #PWR023
+U 1 1 5835A2F2
+P 9750 2550
+F 0 "#PWR023" H 9750 2400 50  0001 C CNN
+F 1 "VIN" H 9750 2690 50  0000 C CNN
+F 2 "" H 9750 2550 60  0000 C CNN
+F 3 "" H 9750 2550 60  0000 C CNN
+	1    9750 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 2650 9750 2650
+Wire Wire Line
+	9750 2650 9750 2550
+Text GLabel 9850 2950 0    51   Input ~ 0
+BCLKout
+Text GLabel 9850 2750 0    51   Output ~ 0
+SDATAin3
+Text GLabel 9850 2850 0    51   Input ~ 0
+SDATAout3
+Text GLabel 9850 3250 0    51   BiDi ~ 0
+SCL
+Text GLabel 9850 3150 0    51   BiDi ~ 0
+SDA
+$Comp
+L STDCONN P3
+U 1 1 5835F01C
+P 8250 1400
+F 0 "P3" H 8250 1850 50  0000 C CNN
+F 1 "STDCONN" H 8250 950 50  0000 C CNN
+F 2 "fdsp_connector:IDC_Header_Straight_16pins" H 8250 200 60  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/C151/BH1S-XX-L.pdf" H 8250 200 60  0001 C CNN
+F 4 "WSL 16G" H 8250 1400 60  0001 C CNN "Reichelt_Best_Nr"
+	1    8250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L STDCONN P5
+U 1 1 5835F0A4
+P 10150 1400
+F 0 "P5" H 10150 1850 50  0000 C CNN
+F 1 "STDCONN" H 10150 950 50  0000 C CNN
+F 2 "fdsp_connector:IDC_Header_Straight_16pins" H 10150 200 60  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/C151/BH1S-XX-L.pdf" H 10150 200 60  0001 C CNN
+F 4 "WSL 16G" H 10150 1400 60  0001 C CNN "Reichelt_Best_Nr"
+	1    10150 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L STDCONN P6
+U 1 1 5835F133
+P 10150 3000
+F 0 "P6" H 10150 3450 50  0000 C CNN
+F 1 "STDCONN" H 10150 2550 50  0000 C CNN
+F 2 "fdsp_connector:IDC_Header_Straight_16pins" H 10150 1800 60  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/C151/BH1S-XX-L.pdf" H 10150 1800 60  0001 C CNN
+F 4 "WSL 16G" H 10150 3000 60  0001 C CNN "Reichelt_Best_Nr"
+	1    10150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P1
+U 1 1 58361124
+P 900 5550
+F 0 "P1" H 900 5700 50  0000 C CNN
+F 1 "CONN_01X02" V 1000 5550 50  0000 C CNN
+F 2 "fdsp_connector:RIACON101-2" H 900 5550 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/C100/AKL101%23RIA.pdf" H 900 5550 50  0001 C CNN
+F 4 "AKL 101-02" H 900 5550 60  0001 C CNN "Reichelt_Best_Nr"
+	1    900  5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR024
+U 1 1 583612E1
+P 1150 6200
+F 0 "#PWR024" H 1150 5950 50  0001 C CNN
+F 1 "GND" H 1150 6050 50  0000 C CNN
+F 2 "" H 1150 6200 50  0000 C CNN
+F 3 "" H 1150 6200 50  0000 C CNN
+	1    1150 6200
+	1    0    0    -1  
+$EndComp
+Connection ~ 1950 5500
+Wire Wire Line
+	1100 5600 1150 5600
+Wire Wire Line
+	1150 5600 1150 6200
+$Comp
+L C C5
+U 1 1 5835D3C6
+P 5050 5300
+F 0 "C5" H 5075 5400 50  0000 L CNN
+F 1 "100n" H 5075 5200 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805_HandSoldering" H 5088 5150 50  0001 C CNN
+F 3 "" H 5050 5300 50  0000 C CNN
+F 4 "X7R-G0805 100N" H 5050 5300 60  0001 C CNN "Reichelt_Best_Nr"
+	1    5050 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L C C3
+U 1 1 5835D5E9
+P 5000 1100
+F 0 "C3" H 5025 1200 50  0000 L CNN
+F 1 "100n" H 5025 1000 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805_HandSoldering" H 5038 950 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B300/X7R-G0805%23YAG.pdf" H 5000 1100 50  0001 C CNN
+F 4 "X7R-G0805 100N" H 5000 1100 60  0001 C CNN "Reichelt_Best_Nr"
+	1    5000 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C1
+U 1 1 5835D6C5
+P 950 1400
+F 0 "C1" H 975 1500 50  0000 L CNN
+F 1 "100n" H 975 1300 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805_HandSoldering" H 988 1250 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B300/X7R-G0805%23YAG.pdf" H 950 1400 50  0001 C CNN
+F 4 "X7R-G0805 100N" H 950 1400 60  0001 C CNN "Reichelt_Best_Nr"
+	1    950  1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C7
+U 1 1 5835D87A
+P 10900 4300
+F 0 "C7" H 10925 4400 50  0000 L CNN
+F 1 "100n" H 10925 4200 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805_HandSoldering" H 10938 4150 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B300/X7R-G0805%23YAG.pdf" H 10900 4300 50  0001 C CNN
+F 4 "X7R-G0805 100N" H 10900 4300 60  0001 C CNN "Reichelt_Best_Nr"
+	1    10900 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C4
+U 1 1 5835F212
+P 3350 5750
+F 0 "C4" H 3375 5850 50  0000 L CNN
+F 1 "4u7" H 3375 5650 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206_HandSoldering" H 3388 5600 50  0001 C CNN
+F 3 "" H 3350 5750 50  0000 C CNN
+F 4 "X7R-G1206 4.7/50" H 3350 5750 60  0001 C CNN "Reichelt_Best_Nr"
+	1    3350 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L D_Schottky D3
+U 1 1 5835FE7F
+P 1450 5500
+F 0 "D3" H 1450 5600 50  0000 C CNN
+F 1 "B140" H 1450 5400 50  0000 C CNN
+F 2 "fdsp_diode:SMA" H 1450 5500 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/B120-B160.pdf" H 1450 5500 50  0001 C CNN
+F 4 "B 140 F" H 1450 5500 60  0001 C CNN "Reichelt_Best_Nr"
+	1    1450 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1300 5500 1100 5500
+$Comp
+L 74HC14 U1
+U 1 1 583607D6
+P 5450 1600
+F 0 "U1" H 5600 1700 40  0000 C CNN
+F 1 "74AC14" H 5650 1500 40  0000 C CNN
+F 2 "fdsp_housing:SO14_3.9x8.7mm_Pitch1.27mm" H 5450 1600 60  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A200/74AC14D-SMD_ON.pdf" H 5450 1600 60  0001 C CNN
+F 4 "74AC 14D-SMD" H 5450 1600 60  0001 C CNN "Reichelt_Best_Nr"
+	1    5450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC14 U1
+U 2 1 58360901
+P 5450 2300
+F 0 "U1" H 5600 2400 40  0000 C CNN
+F 1 "74AC14" H 5650 2200 40  0000 C CNN
+F 2 "" H 5450 2300 60  0000 C CNN
+F 3 "" H 5450 2300 60  0000 C CNN
+	2    5450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC14 U1
+U 3 1 58360C55
+P 5450 2650
+F 0 "U1" H 5600 2750 40  0000 C CNN
+F 1 "74AC14" H 5650 2550 40  0000 C CNN
+F 2 "" H 5450 2650 60  0000 C CNN
+F 3 "" H 5450 2650 60  0000 C CNN
+	3    5450 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC14 U1
+U 4 1 58360CC9
+P 5450 3000
+F 0 "U1" H 5600 3100 40  0000 C CNN
+F 1 "74AC14" H 5650 2900 40  0000 C CNN
+F 2 "" H 5450 3000 60  0000 C CNN
+F 3 "" H 5450 3000 60  0000 C CNN
+	4    5450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC14 U1
+U 5 1 58360D40
+P 5450 3350
+F 0 "U1" H 5600 3450 40  0000 C CNN
+F 1 "74AC14" H 5650 3250 40  0000 C CNN
+F 2 "" H 5450 3350 60  0000 C CNN
+F 3 "" H 5450 3350 60  0000 C CNN
+	5    5450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC14 U1
+U 6 1 58360DBE
+P 5450 3950
+F 0 "U1" H 5600 4050 40  0000 C CNN
+F 1 "74AC14" H 5650 3850 40  0000 C CNN
+F 2 "" H 5450 3950 60  0000 C CNN
+F 3 "" H 5450 3950 60  0000 C CNN
+	6    5450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR025
+U 1 1 58360FAC
+P 5400 1800
+F 0 "#PWR025" H 5400 1550 50  0001 C CNN
+F 1 "GND" H 5400 1650 50  0000 C CNN
+F 2 "" H 5400 1800 50  0000 C CNN
+F 3 "" H 5400 1800 50  0000 C CNN
+	1    5400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR026
+U 1 1 58361258
+P 6700 5150
+F 0 "#PWR026" H 6700 5000 50  0001 C CNN
+F 1 "+3V3" H 6700 5290 50  0000 C CNN
+F 2 "" H 6700 5150 60  0000 C CNN
+F 3 "" H 6700 5150 60  0000 C CNN
+	1    6700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR027
+U 1 1 5836130F
+P 10650 4150
+F 0 "#PWR027" H 10650 4000 50  0001 C CNN
+F 1 "+3V3" H 10650 4290 50  0000 C CNN
+F 2 "" H 10650 4150 60  0000 C CNN
+F 3 "" H 10650 4150 60  0000 C CNN
+	1    10650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR028
+U 1 1 5836152A
+P 10900 4150
+F 0 "#PWR028" H 10900 4000 50  0001 C CNN
+F 1 "+3V3" H 10900 4290 50  0000 C CNN
+F 2 "" H 10900 4150 60  0000 C CNN
+F 3 "" H 10900 4150 60  0000 C CNN
+	1    10900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 583622C7
+P 6150 1600
+F 0 "R3" V 6230 1600 50  0000 C CNN
+F 1 "33" V 6150 1600 50  0000 C CNN
+F 2 "fdsp_resistor:R_0805_HandSoldering" V 6080 1600 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf" H 6150 1600 50  0001 C CNN
+F 4 "SMD-0805 33.0" V 6150 1600 60  0001 C CNN "Reichelt_Best_Nr"
+	1    6150 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 58362611
+P 6150 2300
+F 0 "R4" V 6230 2300 50  0000 C CNN
+F 1 "33" V 6150 2300 50  0000 C CNN
+F 2 "fdsp_resistor:R_0805_HandSoldering" V 6080 2300 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf" H 6150 2300 50  0001 C CNN
+F 4 "SMD-0805 33.0" V 6150 2300 60  0001 C CNN "Reichelt_Best_Nr"
+	1    6150 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5
+U 1 1 5836270B
+P 6150 2650
+F 0 "R5" V 6230 2650 50  0000 C CNN
+F 1 "33" V 6150 2650 50  0000 C CNN
+F 2 "fdsp_resistor:R_0805_HandSoldering" V 6080 2650 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf" H 6150 2650 50  0001 C CNN
+F 4 "SMD-0805 33.0" V 6150 2650 60  0001 C CNN "Reichelt_Best_Nr"
+	1    6150 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 58362803
+P 6150 3000
+F 0 "R6" V 6230 3000 50  0000 C CNN
+F 1 "33" V 6150 3000 50  0000 C CNN
+F 2 "fdsp_resistor:R_0805_HandSoldering" V 6080 3000 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf" H 6150 3000 50  0001 C CNN
+F 4 "SMD-0805 33.0" V 6150 3000 60  0001 C CNN "Reichelt_Best_Nr"
+	1    6150 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R7
+U 1 1 58362928
+P 6150 3350
+F 0 "R7" V 6230 3350 50  0000 C CNN
+F 1 "33" V 6150 3350 50  0000 C CNN
+F 2 "fdsp_resistor:R_0805_HandSoldering" V 6080 3350 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf" H 6150 3350 50  0001 C CNN
+F 4 "SMD-0805 33.0" V 6150 3350 60  0001 C CNN "Reichelt_Best_Nr"
+	1    6150 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 1600 6300 1600
+Wire Wire Line
+	6000 1600 5900 1600
+Wire Wire Line
+	6000 2300 5900 2300
+Wire Wire Line
+	6400 2300 6300 2300
+Wire Wire Line
+	6400 2650 6300 2650
+Wire Wire Line
+	6400 3000 6300 3000
+Wire Wire Line
+	6400 3350 6300 3350
+Wire Wire Line
+	6000 3350 5900 3350
+Wire Wire Line
+	6000 3000 5900 3000
+Wire Wire Line
+	6000 2650 5900 2650
+$Comp
+L FILTER FB2
+U 1 1 58363ECE
+P 7200 5300
+F 0 "FB2" H 7200 5450 50  0000 C CNN
+F 1 "330" H 7200 5200 50  0000 C CNN
+F 2 "fdsp_capacitor:C_0805_HandSoldering" H 7200 5300 50  0001 C CNN
+F 3 "" H 7200 5300 50  0000 C CNN
+F 4 "BLM21PG 331" H 7200 5300 60  0001 C CNN "Reichelt_Best_Nr"
+	1    7200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 583643C2
+P 7650 5900
+F 0 "C12" H 7675 6000 50  0000 L CNN
+F 1 "10u" H 7675 5800 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206_HandSoldering" H 7688 5750 50  0001 C CNN
+F 3 "" H 7650 5900 50  0000 C CNN
+F 4 "X7R-G1206 10/16" H 7650 5900 60  0001 C CNN "Reichelt_Best_Nr"
+	1    7650 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR029
+U 1 1 58364671
+P 7650 6200
+F 0 "#PWR029" H 7650 5950 50  0001 C CNN
+F 1 "GND" H 7650 6050 50  0000 C CNN
+F 2 "" H 7650 6200 50  0000 C CNN
+F 3 "" H 7650 6200 50  0000 C CNN
+	1    7650 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2650 5000 2650
+Connection ~ 4850 2650
+$Comp
+L JUMPER3 JP2
+U 1 1 58404AF8
+P 4300 1600
+F 0 "JP2" H 4350 1500 50  0000 L CNN
+F 1 "JUMPER3" H 4300 1700 50  0000 C BNN
+F 2 "fdsp_pinheader:Pin_Header_Straight_1x03" H 4300 1600 60  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/C140/DS_MPE_087.pdf" H 4300 1600 60  0001 C CNN
+F 4 "MPE 087-1-003" H 4300 1600 60  0001 C CNN "Reichelt_Best_Nr"
+	1    4300 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JUMPER3 JP3
+U 1 1 58404B8A
+P 4300 3350
+F 0 "JP3" H 4350 3250 50  0000 L CNN
+F 1 "JUMPER3" H 4300 3450 50  0000 C BNN
+F 2 "fdsp_pinheader:Pin_Header_Straight_1x03" H 4300 3350 60  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/C140/DS_MPE_087.pdf" H 4300 3350 60  0001 C CNN
+F 4 "MPE 087-1-003" H 4300 3350 60  0001 C CNN "Reichelt_Best_Nr"
+	1    4300 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74HC74 U3
+U 1 1 5840655F
+P 1900 4300
+F 0 "U3" H 2050 4600 50  0000 C CNN
+F 1 "74AC74" H 2200 4005 50  0000 C CNN
+F 2 "fdsp_housing:SO14_3.9x8.7mm_Pitch1.27mm" H 1900 4300 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A200/74AC74_74AC74D-SMD_FAI.pdf" H 1900 4300 50  0001 C CNN
+F 4 "74AC 74D-SMD" H 1900 4300 60  0001 C CNN "Reichelt_Best_Nr"
+	1    1900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC74 U3
+U 2 1 584066AF
+P 1900 2900
+F 0 "U3" H 2050 3200 50  0000 C CNN
+F 1 "74AC74" H 2200 2605 50  0000 C CNN
+F 2 "" H 1900 2900 50  0000 C CNN
+F 3 "" H 1900 2900 50  0000 C CNN
+	2    1900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 584075F3
+P 1750 4850
+F 0 "#PWR030" H 1750 4600 50  0001 C CNN
+F 1 "GND" H 1750 4700 50  0000 C CNN
+F 2 "" H 1750 4850 50  0000 C CNN
+F 3 "" H 1750 4850 50  0000 C CNN
+	1    1750 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR031
+U 1 1 58407A60
+P 7650 5150
+F 0 "#PWR031" H 7650 5000 50  0001 C CNN
+F 1 "VCC" H 7650 5300 50  0000 C CNN
+F 2 "" H 7650 5150 60  0000 C CNN
+F 3 "" H 7650 5150 60  0000 C CNN
+	1    7650 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 5300 7650 5300
+Wire Wire Line
+	7650 5150 7650 5750
+$Comp
+L VCC #PWR032
+U 1 1 58408B66
+P 2600 1000
+F 0 "#PWR032" H 2600 850 50  0001 C CNN
+F 1 "VCC" H 2600 1150 50  0000 C CNN
+F 2 "" H 2600 1000 60  0000 C CNN
+F 3 "" H 2600 1000 60  0000 C CNN
+	1    2600 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR033
+U 1 1 58408DF1
+P 950 1250
+F 0 "#PWR033" H 950 1100 50  0001 C CNN
+F 1 "VCC" H 950 1400 50  0000 C CNN
+F 2 "" H 950 1250 60  0000 C CNN
+F 3 "" H 950 1250 60  0000 C CNN
+	1    950  1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1100 2600 1000
+$Comp
+L VCC #PWR034
+U 1 1 584092DA
+P 5400 1400
+F 0 "#PWR034" H 5400 1250 50  0001 C CNN
+F 1 "VCC" H 5400 1550 50  0000 C CNN
+F 2 "" H 5400 1400 60  0000 C CNN
+F 3 "" H 5400 1400 60  0000 C CNN
+	1    5400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR035
+U 1 1 584093FF
+P 5000 950
+F 0 "#PWR035" H 5000 800 50  0001 C CNN
+F 1 "VCC" H 5000 1100 50  0000 C CNN
+F 2 "" H 5000 950 60  0000 C CNN
+F 3 "" H 5000 950 60  0000 C CNN
+	1    5000 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 7650 5300
+Wire Wire Line
+	7650 6050 7650 6200
+$Comp
+L VCC #PWR036
+U 1 1 5840B519
+P 1750 3750
+F 0 "#PWR036" H 1750 3600 50  0001 C CNN
+F 1 "VCC" H 1750 3900 50  0000 C CNN
+F 2 "" H 1750 3750 60  0000 C CNN
+F 3 "" H 1750 3750 60  0000 C CNN
+	1    1750 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2700 1200 2700
+Wire Wire Line
+	1200 2700 1200 2100
+Wire Wire Line
+	1200 2100 3150 2100
+Wire Wire Line
+	2500 3100 3150 3100
+Text GLabel 4200 1950 0    60   Input ~ 0
+12.288MHz
+Text GLabel 4200 1250 0    60   Input ~ 0
+25.576MHz
+Wire Wire Line
+	4300 1350 4300 1250
+Wire Wire Line
+	4300 1250 4200 1250
+Wire Wire Line
+	4200 1950 4300 1950
+Wire Wire Line
+	4300 1950 4300 1850
+Text GLabel 4200 3700 0    60   Input ~ 0
+12.288MHz
+Text GLabel 4200 3000 0    60   Input ~ 0
+25.576MHz
+Wire Wire Line
+	4300 3000 4200 3000
+Wire Wire Line
+	4200 3700 4300 3700
+Wire Wire Line
+	4300 3100 4300 3000
+Wire Wire Line
+	4300 3700 4300 3600
+Text GLabel 2500 1600 2    60   Output ~ 0
+25.576MHz
+Text GLabel 1300 2900 0    60   Input ~ 0
+25.576MHz
+Text GLabel 2500 2700 2    60   Output ~ 0
+12.288MHz
+Wire Wire Line
+	3150 3100 3150 2100
+$Comp
+L GND #PWR037
+U 1 1 5840E0B6
+P 950 2550
+F 0 "#PWR037" H 950 2300 50  0001 C CNN
+F 1 "GND" H 950 2400 50  0000 C CNN
+F 2 "" H 950 2550 50  0000 C CNN
+F 3 "" H 950 2550 50  0000 C CNN
+	1    950  2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 5840E0BD
+P 950 2400
+F 0 "C8" H 975 2500 50  0000 L CNN
+F 1 "100n" H 975 2300 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805_HandSoldering" H 988 2250 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B300/X7R-G0805%23YAG.pdf" H 950 2400 50  0001 C CNN
+F 4 "X7R-G0805 100N" H 950 2400 60  0001 C CNN "Reichelt_Best_Nr"
+	1    950  2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L VCC #PWR038
+U 1 1 5840E0C3
+P 950 2250
+F 0 "#PWR038" H 950 2100 50  0001 C CNN
+F 1 "VCC" H 950 2400 50  0000 C CNN
+F 2 "" H 950 2250 60  0000 C CNN
+F 3 "" H 950 2250 60  0000 C CNN
+	1    950  2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5500 2450 5500
+Wire Wire Line
+	2300 5350 2300 5550
+$Comp
+L GND #PWR039
+U 1 1 5840FD8C
+P 1200 4400
+F 0 "#PWR039" H 1200 4150 50  0001 C CNN
+F 1 "GND" H 1200 4250 50  0000 C CNN
+F 2 "" H 1200 4400 50  0000 C CNN
+F 3 "" H 1200 4400 50  0000 C CNN
+	1    1200 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4300 1200 4300
+Wire Wire Line
+	1200 4100 1200 4400
+Wire Wire Line
+	1300 4100 1200 4100
+Connection ~ 1200 4300
+$Comp
+L GND #PWR040
+U 1 1 58412784
+P 1900 4850
+F 0 "#PWR040" H 1900 4600 50  0001 C CNN
+F 1 "GND" H 1900 4700 50  0000 C CNN
+F 2 "" H 1900 4850 50  0000 C CNN
+F 3 "" H 1900 4850 50  0000 C CNN
+	1    1900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR041
+U 1 1 5841280A
+P 2050 3750
+F 0 "#PWR041" H 2050 3500 50  0001 C CNN
+F 1 "GND" H 2050 3600 50  0000 C CNN
+F 2 "" H 2050 3750 50  0000 C CNN
+F 3 "" H 2050 3750 50  0000 C CNN
+	1    2050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3750 1900 3650
+Wire Wire Line
+	1900 3650 2050 3650
+Wire Wire Line
+	2050 3650 2050 3750
+Connection ~ 4850 1600
+Connection ~ 4850 2300
+Wire Wire Line
+	4850 1600 4850 3000
+$Comp
+L VCC #PWR042
+U 1 1 584066C0
+P 1900 2350
+F 0 "#PWR042" H 1900 2200 50  0001 C CNN
+F 1 "VCC" H 1900 2500 50  0000 C CNN
+F 2 "" H 1900 2350 60  0000 C CNN
+F 3 "" H 1900 2350 60  0000 C CNN
+	1    1900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR043
+U 1 1 58406746
+P 2000 3450
+F 0 "#PWR043" H 2000 3300 50  0001 C CNN
+F 1 "VCC" H 2000 3600 50  0000 C CNN
+F 2 "" H 2000 3450 60  0000 C CNN
+F 3 "" H 2000 3450 60  0000 C CNN
+	1    2000 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3450 1900 3500
+Wire Wire Line
+	1900 3500 2000 3500
+Wire Wire Line
+	2000 3500 2000 3450
+$Comp
+L VCC #PWR044
+U 1 1 58475AA6
+P 1300 1000
+F 0 "#PWR044" H 1300 850 50  0001 C CNN
+F 1 "VCC" H 1300 1150 50  0000 C CNN
+F 2 "" H 1300 1000 60  0000 C CNN
+F 3 "" H 1300 1000 60  0000 C CNN
+	1    1300 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1100 1300 1100
+Wire Wire Line
+	1300 1100 1300 1000
+$EndSCHEMATC
